@@ -1,6 +1,5 @@
 package Com.selenium.Pageobjects.orangeHRM;
 
-import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,6 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 public class HomepageObjects {
 	
 	WebDriver driver;
+	
+	//Added comments
 	
 	@FindBy(xpath = "//b[normalize-space()='Admin']")
 	WebElement menu_Admin;
