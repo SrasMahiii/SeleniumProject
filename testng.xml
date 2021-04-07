@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestingThe XML">
+  <test name="FirstTestwithyTestNG">
+    <classes>
+      <class name="Seleniumsessions.StudentBuzzAnnatationclass"/>
+      <class name="Seleniumsessions.CreationAnnatationsMySelf"/>
+      <class name="Seleniumsessions.TestNGannatations"/>
+    </classes>
+  </test> <!-- FirstTestwithyTestNG -->
+</suite> <!-- TestingThe XML -->
